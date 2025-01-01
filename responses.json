@@ -1,0 +1,193 @@
+{
+    "greetings": {
+        "questions": [
+            "sveiki",
+            "labdien",
+            "čau",
+            "hei",
+            "sveicināti"
+        ],
+        "answers": [
+            "Labdien! Kā es varu jums palīdzēt?",
+            "Sveiki! Priecājos jūs dzirdēt. Ko varu darīt jūsu labā?", 
+            "Čau! Kā varu būt noderīga šodien?",
+            "Sveicināti! Ar ko varu jums palīdzēt?",
+            "Hei! Esmu kaujas gatavībā"
+        ]
+    },
+    "name": {
+        "questions": [
+            "adelaida",
+            "ada",
+            "DJ",
+            "adi"
+        ],
+        "answers": [
+            "Klausos!",
+            "Esmu gatava pakalpot.",
+            "Uzmanīgi klausos!",
+            "Kā varu palīdzēt?",
+            "Esmu pati uzmanība!",
+            "Ko tev vajag a?",
+            "Ko tev vajag...a?"
+        ]
+    },
+    "intro": {
+        "questions": [
+            "kas tu esi?",
+            "iepazīstinies",
+            "iepazīsties"
+        ],
+        "answers": [
+            "Mani sauc adams. Priecājos iepazīties!",
+            "Esmu Adam un esu gatavs pakalpot.",
+            "Kas ir a?"
+        ]
+    },
+    "music_stop": {
+        "questions": [
+            "stop",
+            "beidz",
+            "apstāties",
+            "pietiek",
+            "pārtrauc",
+            "pārtrauc mūziku",
+            "apturi mūziku",
+            "beidz spēlēt"
+        ],
+        "answers": [
+            "Mūzikas atskaņošana ir apturēta"
+        ]
+    },
+    "music_pause": {
+        "questions": [
+            "pauze",
+            "pause",
+            "apturi",
+            "nopauzē",
+            "nopauzē mūziku",
+            "pauzes režīms"
+        ],
+        "answers": [
+            "Mūzika nopauzēta"
+        ]
+    },
+    "music_resume": {
+        "questions": [
+            "turpini",
+            "turpināt",
+            "atsākt",
+            "atsāc",
+            "turpini spēlēt"
+        ],
+        "answers": [
+            "Turpinu atskaņošanu"
+        ]
+    },
+    "berzgale_full": {
+        "questions": [
+            "bērzgale",
+            "atskaņo bērzgales kadriļu",
+            "bērzgales kadriļu", 
+            "palaid bērzgali"
+        ],
+        "answers": ["Atskaņoju Bērzgales kadriļu"],
+        "timemarks": {
+            "sākums": 0,
+            "dārziņš": "0",
+            "vidus": "0",
+            "otrā puse": "0",
+            "beigas": "0"
+        },
+        "audio_path": "MUSIC/kadrilas/Berzgale/berzgalefull.mp3"
+    },
+    "berlins_full": {
+        "questions": [
+            "berliņš",
+            "atskaņo berliņu",
+            "brambergas berliņš",
+            "palaid berliņu"
+        ],
+        "answers": [
+            "Atskaņoju Brambergas berliņu"
+        ],
+        "timemarks": {
+            "sākums": 0,
+            "dārziņš": 30,
+            "vidus": 120,
+            "otrā puse": 230,
+            "beigas": 280
+        },
+        "audio_path": "MUSIC/kadrilas/berlins/berlinsfull.mp3"
+    },
+    "kvadrats_full": {
+        "questions": [
+            "kvadrāts",
+            "atskaņo kvadrātu",
+            "kvadrātu",
+            "palaid kvadrātu"
+        ],
+        "answers": [
+            "Atskaņoju kvadrātu"
+        ],
+        "timemarks": {
+            "sākums": 0,
+            "kreisais dārziņš": "0:45",
+            "pirmā maiņa": "1:30",
+            "labais dārziņš": "2:15", 
+            "otrā maiņa": "3:00",
+            "beigas": "3:45"
+        },
+        "audio_path": "MUSIC/kadrilas/kvadrats/kvadratsfull.mp3"
+    },
+    "balabaska_full": {
+        "questions": [
+            "balabasku",
+            "atskaņo balabasku",
+            "balabaska",
+            "palaid balabasku"
+        ],
+        "answers": [
+            "Atskaņoju balabasku!"
+        ],
+        "timemarks": {
+            "sākums": 0,
+            "dārziņš": "0:30",
+            "vidus": "1:00",
+            "gājiens": "1:30",
+            "beigas": "2:00"
+        },
+        "audio_path": "MUSIC/kadrilas/balabaska/balabaskafull.mp3"
+    },
+    "video_paths": {
+        "Labdien! Kā es varu jums palīdzēt?": "videos/greeting1.mp4",
+        "Sveiki! Priecājos jūs dzirdēt. Ko varu darīt jūsu labā?": "videos/greetings/greeting2.mp4",
+        "Kā varu palīdzēt?": "videos/commands/help.mp4",
+        "Gatava pakalpot": "videos/commands/ready.mp4",
+        "Mūzikas atskaņošana ir apturēta": "videos/music/stop.mp4"
+    },
+    "music_paths": {
+        "Labdien! Kā es varu jums palīdzēt?": "voice_responses/greetings/American Female Assertive_KITS (1).mp3",
+        "Sveiki! Priecājos jūs dzirdēt. Ko varu darīt jūsu labā?": "voice_responses/greetings/American Female Assertive_KITS(2).mp3",
+        "Čau! Kā varu būt noderīga šodien?": "voice_responses/greetings/American Female Assertive_KITS (3).mp3",
+        "Sveicināti! Ar ko varu jums palīdzēt?": "voice_responses/greetings/American Female Assertive_KITS (4).mp3",
+        "Hei! Esmu kaujas gatavībā": "voice_responses/greetings/American Female Assertive_KITS (5).mp3",
+        
+        "Klausos!": "voice_responses/name/American Female Assertive_KITS (1).mp3",
+        "Esmu gatava pakalpot.": "voice_responses/name/American Female Assertive_KITS (2).mp3",
+        "Uzmanīgi klausos!": "voice_responses/name/American Female Assertive_KITS (3).mp3",
+        "Kā varu palīdzēt?": "voice_responses/name/American Female Assertive_KITS (4).mp3",
+        "Esmu pati uzmanība!": "voice_responses/name/American Female Assertive_KITS (5).mp3",
+        "Ko tev vajag a?": "voice_responses/name/American Female Assertive_KITS (6).mp3",
+        "Ko tev vajag...a?": "voice_responses/name/American Female Assertive_KITS (7).mp3",
+ 
+        "Mani sauc adams. priecājos iepazīties!": "voice_responses/intro/name1.mp3",
+        
+        "Atskaņoju Bērzgales kadriļu": "MUSIC/kadrilas/Berzgale/berzgalefull.mp3",
+        "Atskaņoju tikai otro kaļenu": "MUSIC/kadrilas/berzgale/fragmenti/kalena2.mp3",
+        "Atskaņoju no trešās kaļenas": "MUSIC/kadrilas/berzgale/fragmenti/kalena3.mp3",
+        "Atskaņoju kvadrātu": "MUSIC/kadrilas/kvadrats/kvadratsfull.mp3",
+        
+        "Atskaņoju balabasku": "MUSIC/kadrilas/balabaska/balabaskafull.mp3"
+    }
+ }
