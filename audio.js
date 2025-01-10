@@ -28,7 +28,7 @@ class AudioManager {
                     'sākums': 'MUSIC/kadrilas/ada/parts/sakums.mp3',
                     'vidus': 'MUSIC/kadrilas/ada/parts/vidus.mp3',
                     'beigas': 'MUSIC/kadrilas/ada/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/rusins/rusinsfull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/berlins/rusins/rusinsfull.mp3',
                     'video': 'VIDEO/kadrilas/rusins/rusins.mp4'
                 },
                 keywords: ['rusiņš', 'rusiņu', 'russu']
@@ -64,7 +64,7 @@ class AudioManager {
                     'ceturtais gabals': 'MUSIC/kadrilas/Berzgale/parts/ceturtais.mp3',
                     'piektais gabals': 'MUSIC/kadrilas/Berzgale/parts/piektais.mp3',
                     'sestais gabals': 'MUSIC/kadrilas/Berzgale/parts/sestais.mp3',
-                    'pilnā': 'MUSIC/kadrilas/Berzgale/berzgalefull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/berlins/Berzgale/berzgalefull.mp3',
                     'video': 'VIDEO/kadrilas/berzgale/berzgale.mp4'
                 },
                 keywords: ['bērzgale', 'bērzgali', 'bērzgales']
