@@ -236,6 +236,21 @@ body {
         min-width: 200px;
     }
 }
+.audio-device-select {
+    background: #002436;
+    border: 1px solid cyan;
+    color: cyan;
+    padding: 8px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.audio-device-select option {
+    background: #002436;
+    color: cyan;
+    padding: 4px;
+}
 
 /* Video un audio elementi */
 video, audio {
