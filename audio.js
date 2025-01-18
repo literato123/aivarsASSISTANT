@@ -28,18 +28,19 @@ class AudioManager {
                     'sākums': 'MUSIC/kadrilas/ada/parts/sakums.mp3',
                     'vidus': 'MUSIC/kadrilas/ada/parts/vidus.mp3',
                     'beigas': 'MUSIC/kadrilas/ada/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/rusins/rusinsfull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/rusins/rusinsfull.mp3',
                     'video': 'VIDEO/kadrilas/rusins/rusins.mp4'
                 },
                 keywords: ['rusiņš', 'rusiņu', 'russu']
             },
+            
             'padespaņs': {
                 name: 'Atskaņoju...',
                 fragments: {
                     'sākums': 'MUSIC/kadrilas/adi/parts/sakums.mp3',
                     'vidus': 'MUSIC/kadrilas/adi/parts/vidus.mp3', 
                     'beigas': 'MUSIC/kadrilas/adi/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/padespans/Padespaanfull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/padespans/Padespaanfull.mp3',
                     'video': 'VIDEO/kadrilas/padespans/padespans.mp4'
                 },
                 keywords: ['padespaņs', 'spainis', 'bada spains']
@@ -50,7 +51,7 @@ class AudioManager {
                     'sākums': 'MUSIC/kadrilas/adelaida/parts/sakums.mp3',
                     'vidus': 'MUSIC/kadrilas/adelaida/parts/vidus.mp3',
                     'beigas': 'MUSIC/kadrilas/adelaida/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/narechenka/Narechenka - a folk dance..mp3',
+                    'pilnā': 'MUSIC/kadrilas/narechenka/Narechenka - a folk dance..mp3',
                     'video': 'VIDEO/kadrilas/narecenka/narecenka.mp4'
                 },
                 keywords: ['narečenku', 'uz upi', 'uz upīti']
@@ -64,7 +65,7 @@ class AudioManager {
                     'ceturtais gabals': 'MUSIC/kadrilas/Berzgale/parts/ceturtais.mp3',
                     'piektais gabals': 'MUSIC/kadrilas/Berzgale/parts/piektais.mp3',
                     'sestais gabals': 'MUSIC/kadrilas/Berzgale/parts/sestais.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/Berzgale/berzgalefull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/Berzgale/berzgalefull.mp3',
                     'video': 'VIDEO/kadrilas/berzgale/berzgale.mp4'
                 },
                 keywords: ['bērzgale', 'bērzgali', 'bērzgales']
@@ -77,7 +78,7 @@ class AudioManager {
                     'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
                     'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
                     'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/berlins/berlinsfull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/berlins/berlinsfull.mp3',
                     'video': 'VIDEO/kadrilas/berlins/berlins.mp4'
                 },
                 keywords: ['berliņš', 'berliņu', 'berliņa', 'brambergas']
@@ -90,7 +91,7 @@ class AudioManager {
                     'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
                     'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
                     'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/kvadrats/kvadrat_full.mp3',
+                    'pilnā': 'MUSIC/kadrilas/kvadrats/kvadrat_full.mp3',
                     'video': 'VIDEO/kadrilas/kvadrats/kvadrats.mp4'
                 },
                 keywords: ['kvadrāts', 'kvadrātu', 'karēļu kvadrātu', 'karēļu kvadrāts']
@@ -103,10 +104,36 @@ class AudioManager {
                     'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
                     'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
                     'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas/berlins/ciganovskis/Ciganovskisfull.mp3',
+                    'pilnā': 'MUSIC/kadrilas/ciganovskis/Ciganovskisfull.mp3',
                     'video': 'VIDEO/kadrilas/berlins/berlins.mp4'
                 },
                 keywords: ['ciganovskis', 'ciganovski', 'cigi']
+            },
+            'rikava': {
+                name: 'rikava',
+                fragments: {
+                    'dārziņš': 'MUSIC/kadrilas/berlins/parts/darzins.mp3',
+                    'sākums': 'MUSIC/kadrilas/berlins/parts/sakums.mp3',
+                    'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
+                    'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
+                    'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
+                    'pilnā': 'MUSIC/kadrilas/ciganovskis/rikavafull.mp3',
+                    'video': 'VIDEO/kadrilas/berlins/berlins.mp4'
+                },
+                keywords: ['rikavu', 'rikava', 'rika']
+            },
+            'sarkano': {
+                name: 'sarkanbaltsarkanais',
+                fragments: {
+                    'dārziņš': 'MUSIC/kadrilas/berlins/parts/darzins.mp3',
+                    'sākums': 'MUSIC/kadrilas/berlins/parts/sakums.mp3',
+                    'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
+                    'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
+                    'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
+                    'pilnā': 'MUSIC/sarkanaisfull.mp3',
+                    'video': 'VIDEO/kadrilas/berlins/berlins.mp4'
+                },
+                keywords: ['sarkanais', 'sarkano', 'baltais']
             },
             'žīga': {
                 name: 'family jig',
@@ -116,12 +143,14 @@ class AudioManager {
                     'vidus': 'MUSIC/kadrilas/berlins/parts/vidus.mp3',
                     'otra puse': 'MUSIC/kadrilas/berlins/parts/otra_puse.mp3',
                     'beigas': 'MUSIC/kadrilas/berlins/parts/beigas.mp3',
-                    'pilnā': 'MUSIC/kadrilas//family_jig/Family Jig.mp3',
+                    'pilnā': 'MUSIC/kadrilas/family_jig/Family Jig.mp3',
                     'video': 'VIDEO/kadrilas/berlins/family_jig/Family Jig.mp4'
                 },
                 keywords: ['family jig', 'džīga', 'žīga', 'brambergas']
             },
+            
         };
+        
     }
 
     handleCommand(command) {
